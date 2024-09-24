@@ -22,9 +22,9 @@ const SideBar: React.FC = () => {
   console.log(pathname);
 
   return (
-    <div className="side-bar border w-[94px] py-[20px] px-[15px] h-svh">
+    <div className="side-bar w-[94px] py-[20px] px-[15px] h-svh">
       <img src={trelloIcon} className="w-[64px] h-[61px] mb-[151px]" alt="" />
-      <div className="border flex flex-col justify-center items-center gap-[45px]">
+      <div className="flex flex-col justify-center items-center gap-[45px]">
         <img
           className="w-[40px] h-[40px] rounded-md cursor-pointer p-2 hover:bg-blue-300"
           src={main}
